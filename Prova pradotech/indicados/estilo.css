@@ -1,0 +1,149 @@
+#titulo {
+    text-align: center;
+    color: #daa520;
+    font-size: 50px;
+    letter-spacing: 6px;
+    font-family: 'Didot';
+}
+
+#corpodotexto {
+    text-align: center;
+    color: #daa520;
+    font-size: 30px;
+    text-indent: 30px;
+    font-family: 'Didot';
+}
+
+body{
+    font-family: arial, helvetica, sans-serif;
+    font-size: 16px;
+    }
+    
+    .menu{
+    list-style:none;
+    border:1px solid #daa520;
+    float:left;
+    }
+    
+    .menu li{
+    position:relative;
+    float:left;
+    border-right:1px solid #daa520;
+    }
+    
+    .menu li a{color:#ffffff; text-decoration:none; padding:5px 10px; display:block;}
+    
+    .menu li a:hover{
+    background:#daa520;
+    color:black;
+    -moz-box-shadow:0 3px 10px 0 #CCC;
+    -webkit-box-shadow:0 3px 10px 0 #ccc;
+    text-shadow:0px 0px 5px white;
+    }
+    
+    .menu li  ul{
+    position:absolute;
+    top:25px;
+    left:0;
+    background-color:#000000;
+    display:none;
+    }
+    
+    .menu li:hover ul, .menu li.over ul{display:block;}
+    
+    .menu li ul li{
+    border:1px solid #c0c0c0;
+    display:block;
+    width:150px;
+    }
+    
+#messi {
+    background-image:url(messi.jpg);
+    height: 100%;
+    width: 45%;
+    text-align: center;
+    background-size: cover;
+    padding: 0% 0% 0% 0%;
+    margin: 0%;
+    border: 0%;
+}
+
+body{
+    margin: 0;
+    background-color: #000000;
+}
+.coluna {
+    float: left;
+    padding: 2% 5%;
+    position: relative;
+    color: #daa520;
+    font-family: 'Didot';
+}
+.dois{
+    width: 40%;
+    height: 70%;
+}
+
+.cor{
+    color: white;
+    font-family: 'Didot';
+}
+
+#neymar {
+    background-image:url(neymar.jpg);
+    height: 100%;
+    width: 45%;
+    text-align: center;
+    background-size: cover;
+    padding: 0% 0% 0% 0%;
+    margin: 0%;
+    border: 0%;
+}
+
+.colunax {
+    float: right;
+    padding: 2% 5%;
+    position: relative;
+    color: #daa520;
+    font-family: 'Didot';
+}
+
+#papai {
+    background-image:url(cr7.jpg);
+    height: 100%;
+    width: 45%;
+    text-align: center;
+    background-size: cover;
+    padding: 0% 0% 0% 0%;
+    margin: 0%;
+    border: 0%;
+}
+
+<div class="coluna dois" style="padding: 0% 0% 0% 0%;"> <img src="cr7.jpg" alt="Cristiano Ronaldo" style="width: 100%; height: 100%;">
+               </div>
+                            <h3 style="text-align: center;" > Robert Lewandowski</h3>
+                            <p class="cor">  Lewandowski jogou muito pelo Barcelona , após sua saída do Bayern não foi o mesmo, mas ainda conseguiu mante uma boa média e seu faro de gol mortífero. Carregou esse time do Barcelona para ganhar mais uma La liga, com uma vantagem gigantesca em cima de Real Madrid a Atlético de Madrid, seus maiores rivais na Espanha.
+                            </p>
+                            <h2> Messi em 2022/2023: </h2>
+                            <h3 class="cor coluna"> 41 jogos</h3>
+                            <h3 class="cor coluna"> 21 gols</h3>
+                            <h3 class="cor coluna"> 20 assistências</h3>
+                            <br><br><br>
+                            <h2 style="padding-right: 40%; ;"> Títulos: </h2>
+                            <h4 class="cor coluna"> -Ligue 1, Superocopa da França e Copa do Mundo.</h4>
+                        </div>
+
+                        <div class="coluna dois" style="padding: 0% 0% 0% 0%;"> <img src="neymar.jpg" alt="Neymar Jr" style="width: 100%; height: 100%;">
+                        </div>
+                                 <div class="coluna dois">
+                                     <h3 style="text-align: center;" > Jorginho</h3>
+                                     <p class="cor">  Jorginho na temporada 2020/2021, jogou um absurdo, foi sua melhor temporada na carreira por muito, ele simplismente voou em campo. Ganhou uma Champions league e uma Eurocopa, simplismente um monstro dentro de campo. Uma visão de jogo absuurda e um qualidade no passe enorme. Jogou demais.
+                                     </p>
+                                     <h2> Jorginho em 2020/2021: </h2>
+                                     <h3 class="cor coluna"> 43 jogos</h3>
+                                     <h3 class="cor coluna"> 8 gols</h3>
+                                     <h3 class="cor coluna"> 2 assistências</h3>
+                                     <br><br><br>
+                                     <h2 style="padding-right: 40%; ;"> Títulos: </h2>
+                                     <h4 class="cor coluna"> -Champions League, Fa CUP e EUROCOPA</h4>
+                                 </div>
